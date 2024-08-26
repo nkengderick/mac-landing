@@ -34,7 +34,7 @@ const Blogs: FC = () => {
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {Object.keys(t("blogs.articles")).map((key) => (
+          {['0', '1', '2'].map((key) => (
             <Card key={key} className="hover:shadow-lg transition-shadow duration-300">
               <CardHeader className="flex justify-center items-center p-4">
                 <Image

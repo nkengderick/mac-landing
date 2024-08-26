@@ -189,5 +189,25 @@
         "image": "/assets/art-economy-impact.jpg"
       }
     }
+  },
+  "who_we_are": {
+    "title": "Who We Are",
+    "tagline": "Home of Creativity",
+    "description": "We are Mac (Marketing Arts and Culture), an organization dedicated to boosting cultural exports by connecting local artisans with global enthusiasts. As a middleman, we ensure that the rich cultural heritage of our artisans reaches every corner of the world.",
+    "image_alt": "MAC - Home of Creativity",
+    "image_url": "/assets/logo-mockup.png"
+  },
+  "subscribe": {
+    "title": "Stay Connected",
+    "subtitle": "Subscribe to our newsletter",
+    "placeholder": "Enter your email",
+    "button_text": "Subscribe"
+  },
+  "footer": {
+    "about_us": "About Us",
+    "contact_us": "Contact Us",
+    "privacy_policy": "Privacy Policy",
+    "terms_of_service": "Terms of Service",
+    "rights_reserved": "© 2024 MAC. All rights reserved."
   }
 }

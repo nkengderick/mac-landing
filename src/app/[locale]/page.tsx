@@ -9,6 +9,7 @@ import Partners from '@/components/Partners';
 import Services from '@/components/Services';
 import Galleries from '@/components/Gallery';
 import Blogs from '@/components/Blogs';
+import WhoWeAre from '@/components/WhoWeAre';
 
 const Home: FC = () => {
   return (
@@ -16,8 +17,9 @@ const Home: FC = () => {
       <Header />
       <Hero />
       <Features />
-      <Services />
+      <WhoWeAre />
       <Partners />
+      <Services />
       <Galleries />
       <Blogs />
       <CTA />
