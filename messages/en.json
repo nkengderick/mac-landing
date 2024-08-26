@@ -166,13 +166,27 @@
     }
   },
   "blogs": {
-    "title": "Latest Blogs",
+    "title": "Latest Articles",
+    "details_button": "Details",
+    "close_button": "Close",
     "articles": {
-      "pre_release": {
-        "title": "Pre-Release of Cultural Art",
-        "summary": "An exciting preview of a new cultural art piece that will be released soon.",
-        "content": "Detailed content about the art piece, including its significance, background, and features.",
-        "image": "/assets/pre-release-art.png"
+      "0": {
+        "title": "The Pre-Release of Cultural Artifacts",
+        "summary": "Discover the story behind the pre-release of a unique cultural artifact that embodies the spirit of Cameroon.",
+        "content": "The pre-release event of this cultural artifact highlights the intricate craftsmanship and deep cultural significance embedded in each piece. This artifact not only reflects the rich heritage of Cameroon but also bridges the gap between tradition and modernity.",
+        "image": "/assets/pre-release-artifact.jpg"
+      },
+      "1": {
+        "title": "Exploring Cameroon’s Cultural Diversity",
+        "summary": "A deep dive into the rich cultural diversity of Cameroon, showcasing the various traditional arts and crafts.",
+        "content": "Cameroon’s cultural diversity is a tapestry of traditions and customs, each unique to the various ethnic groups that inhabit the region. This blog explores the colorful festivals, traditional music, and the wide array of crafts that make Cameroon a vibrant cultural hub.",
+        "image": "/assets/cultural-diversity.jpg"
+      },
+      "2": {
+        "title": "The Impact of Art on Cameroon’s Economy",
+        "summary": "How art and cultural products are contributing to the growth of Cameroon’s economy.",
+        "content": "Art plays a significant role in Cameroon’s economy by not only preserving cultural heritage but also by boosting tourism and creating employment opportunities. This blog examines the economic impact of the art industry and its potential for future growth.",
+        "image": "/assets/art-economy-impact.jpg"
       }
     }
   }

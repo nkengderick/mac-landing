@@ -22,7 +22,9 @@ const Blogs: FC = () => {
     setSelectedBlog(null);
   };
 
-  const blog = t(`blogs.articles.${selectedBlog}`, {}, { fallback: {} });
+  const getImageSrc = (path: string) => {
+    return path.startsWith("/") ? path : `/${path}`;
+  };
 
   return (
     <section className="py-16 bg-gray-100">
@@ -36,7 +38,7 @@ const Blogs: FC = () => {
             <Card key={key} className="hover:shadow-lg transition-shadow duration-300">
               <CardHeader className="flex justify-center items-center p-4">
                 <Image
-                  src={t(`blogs.articles.${key}.image`)}
+                  src={getImageSrc(t(`blogs.articles.${key}.image`))}
                   alt={t(`blogs.articles.${key}.title`)}
                   width={100}
                   height={100}
@@ -50,29 +52,35 @@ const Blogs: FC = () => {
                   {t(`blogs.articles.${key}.summary`)}
                 </CardDescription>
                 <Button variant="default" className="mt-4" onClick={() => handleOpen(key)}>
-                  Details
+                  {t("blogs.details_button")}
                 </Button>
               </CardContent>
             </Card>
           ))}
         </div>
 
-        <Dialog open={open} onOpenChange={setOpen} className="relative">
-          <DialogTitle className="text-2xl font-bold">{blog.title}</DialogTitle>
-          <DialogContent className="p-6">
-            <Image
-              src={blog.image}
-              alt={blog.title}
-              width={400}
-              height={300}
-              className="object-cover mb-4"
-            />
-            <p>{blog.content}</p>
-            <Button variant="outline" className="mt-4" onClick={handleClose}>
-              Close
-            </Button>
-          </DialogContent>
-        </Dialog>
+        {selectedBlog && (
+          <Dialog open={open} onOpenChange={setOpen}>
+            <DialogTitle className="text-2xl font-bold">
+              {t(`blogs.articles.${selectedBlog}.title`)}
+            </DialogTitle>
+            <DialogContent className="p-6">
+              {t(`blogs.articles.${selectedBlog}.image`) && (
+                <Image
+                  src={getImageSrc(t(`blogs.articles.${selectedBlog}.image`))}
+                  alt={t(`blogs.articles.${selectedBlog}.title`)}
+                  width={400}
+                  height={300}
+                  className="object-cover mb-4"
+                />
+              )}
+              <p>{t(`blogs.articles.${selectedBlog}.content`)}</p>
+              <Button variant="outline" className="mt-4" onClick={handleClose}>
+                {t("blogs.close_button")}
+              </Button>
+            </DialogContent>
+          </Dialog>
+        )}
       </div>
     </section>
   );
