@@ -8,6 +8,7 @@ import Subscribe from '@/components/Subscribe';
 import Partners from '@/components/Partners';
 import Services from '@/components/Services';
 import Galleries from '@/components/Gallery';
+import Blogs from '@/components/Blogs';
 
 const Home: FC = () => {
   return (
@@ -18,6 +19,7 @@ const Home: FC = () => {
       <Services />
       <Partners />
       <Galleries />
+      <Blogs />
       <CTA />
       <Subscribe />
       <Footer />

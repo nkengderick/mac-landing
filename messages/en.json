@@ -164,5 +164,16 @@
         "description": "A showcase of modern and abstract art."
       }
     }
+  },
+  "blogs": {
+    "title": "Latest Blogs",
+    "articles": {
+      "pre_release": {
+        "title": "Pre-Release of Cultural Art",
+        "summary": "An exciting preview of a new cultural art piece that will be released soon.",
+        "content": "Detailed content about the art piece, including its significance, background, and features.",
+        "image": "/assets/pre-release-art.png"
+      }
+    }
   }
 }
