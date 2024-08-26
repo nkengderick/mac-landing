@@ -1,0 +1,168 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "features": "Features",
+    "services": "Services",
+    "contact": "Contact",
+    "blog": "News",
+    "login": "Login",
+    "signup": "Sign Up"
+  },
+  "hero": {
+    "title": "Cameroon Art & Culture",
+    "subtitle": "Empowering Creators, Connecting Cultures",
+    "hub_for": "A Hub for",
+    "animated_texts": [
+      "Artists & Creators",
+      "Cultural Enthusiasts",
+      "Global Audiences",
+      "Cultural Exchange"
+    ],
+    "buttons": {
+      "get_started": "Get Started",
+      "learn_more": "Learn More"
+    }
+  },
+  "features": {
+    "title": "Our Core Features",
+    "multilingual_support": {
+      "title": "Multilingual Support",
+      "description": "Our platform supports multiple languages, allowing creators and consumers to interact in their preferred language.",
+      "image": "/assets/multilingual-support.png"
+    },
+    "security_trust": {
+      "title": "Security & Trust",
+      "description": "We ensure that all transactions and interactions on our platform are secure and trustworthy.",
+      "image": "/assets/security-trust.png"
+    },
+    "chat_bot": {
+      "title": "AI Chat Bot",
+      "description": "Our AI-powered chat bot is available 24/7 to assist with any inquiries.",
+      "image": "/assets/chat-bot.png"
+    },
+    "virtual_reality": {
+      "title": "Virtual Reality",
+      "description": "Experience art and culture in immersive virtual reality environments.",
+      "image": "/assets/virtual-reality.png"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "items": {
+      "sell": {
+        "title": "Sell Your Art",
+        "description": "Easily list and sell your creations to a global audience.",
+        "image": "/assets/sell-art.png"
+      },
+      "learn": {
+        "title": "Learn and Grow",
+        "description": "Access resources to help you grow your skills and knowledge.",
+        "image": "/assets/learn-grow.png"
+      },
+      "export": {
+        "title": "Export Globally",
+        "description": "Export your art to international markets with ease.",
+        "image": "/assets/export-globally.png"
+      },
+      "promotions": {
+        "title": "Promote Your Work",
+        "description": "Utilize our platform's tools to promote your art effectively.",
+        "image": "/assets/promote-work.png"
+      }
+    }
+  },
+  "partners": {
+    "title": "Our Partners",
+    "categories": {
+      "influencers": {
+        "partners": {
+          "1": {
+            "name": "Influencer 1",
+            "description": "Top influencer in the arts community.",
+            "image": "/assets/influencer1.jpg"
+          },
+          "2": {
+            "name": "Influencer 2",
+            "description": "Leading voice in cultural discussions.",
+            "image": "/assets/influencer2.jpg"
+          }
+        }
+      },
+      "flight_agencies": {
+        "partners": {
+          "1": {
+            "name": "FEDEx",
+            "description": "Reliable delivery services worldwide.",
+            "image": "/assets/fedex.jpg"
+          }
+        }
+      },
+      "rtv_stations": {
+        "partners": {
+          "1": {
+            "name": "RTV Station 1",
+            "description": "Broadcasting cultural events globally.",
+            "image": "/assets/rtv1.jpg"
+          }
+        }
+      },
+      "delivery_services": {
+        "partners": {
+          "1": {
+            "name": "DHL",
+            "description": "Fast and secure global deliveries.",
+            "image": "/assets/dhl.jpg"
+          }
+        }
+      },
+      "intellectual_property": {
+        "partners": {
+          "1": {
+            "name": "IP Lawyer",
+            "description": "Expert in intellectual property law.",
+            "image": "/assets/lawyer.jpg"
+          }
+        }
+      },
+      "arts_creators": {
+        "partners": {
+          "1": {
+            "name": "Artist Collective",
+            "description": "A group of creative minds.",
+            "image": "/assets/artist-collective.jpg"
+          }
+        }
+      },
+      "payment_gateways": {
+        "partners": {
+          "1": {
+            "name": "PowerAPi",
+            "description": "Secure and fast payment processing.",
+            "image": "/assets/powerapi.jpg"
+          }
+        }
+      }
+    }
+  },
+  "galleries": {
+    "title": "Our Galleries",
+    "items": {
+      "0": {
+        "title": "Art Gallery 1",
+        "image": "/assets/gallery1.jpg",
+        "description": "A beautiful collection of contemporary art."
+      },
+      "1": {
+        "title": "Art Gallery 2",
+        "image": "/assets/gallery2.jpg",
+        "description": "Explore traditional art forms and crafts."
+      },
+      "2": {
+        "title": "Art Gallery 3",
+        "image": "/assets/gallery3.jpg",
+        "description": "A showcase of modern and abstract art."
+      }
+    }
+  }
+}
