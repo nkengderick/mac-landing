@@ -9,7 +9,7 @@ const Subscribe: FC = () => {
   const t = useTranslations();
 
   return (
-    <section className="py-16 bg-blue-600 text-white">
+    <section className="py-16 bg-white">
       <div className="container mx-auto px-6 text-center">
         <h2 className="text-3xl md:text-4xl font-extrabold mb-4">
           {t("subscribe.title")}

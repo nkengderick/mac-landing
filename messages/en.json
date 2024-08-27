@@ -216,7 +216,9 @@
     "tagline": "Home of Creativity",
     "description": "We are Mac (Marketing Arts and Culture), an organization dedicated to boosting cultural exports by connecting local artisans with global enthusiasts. As a middleman, we ensure that the rich cultural heritage of our artisans reaches every corner of the world.",
     "image_alt": "MAC - Home of Creativity",
-    "image_url": "/assets/logo-mockup.png"
+    "image_url": "/assets/logo-mockup.png",
+    "vision": "Our vision is to create a world where cultural boundaries are not obstacles but bridges to mutual appreciation.",
+    "mission": "Our mission is to empower creators, promote cultural diversity, and facilitate global access to authentic cultural products."
   },
   "subscribe": {
     "title": "Stay Connected",

@@ -214,9 +214,11 @@
   "who_we_are": {
     "title": "Qui Nous Sommes",
     "tagline": "Maison de la Créativité",
-    "description": "Nous sommes Mac (Marketing Arts and Culture), une organisation dédiée à la promotion des exportations culturelles en connectant les artisans locaux avec les passionnés du monde entier. En tant qu'intermédiaire, nous veillons à ce que le riche patrimoine culturel de nos artisans atteigne tous les coins du monde.",
+    "description": "Nous sommes Mac (Marketing Arts et Culture), une organisation dédiée à la promotion des exportations culturelles en connectant les artisans locaux avec les passionnés du monde entier. En tant qu'intermédiaire, nous veillons à ce que le riche patrimoine culturel de nos artisans atteigne chaque coin du monde.",
     "image_alt": "MAC - Maison de la Créativité",
-    "image_url": "/assets/logo-mockup.png"
+    "image_url": "/assets/logo-mockup.png",
+    "vision": "Notre vision est de créer un monde où les frontières culturelles ne sont pas des obstacles mais des ponts vers une appréciation mutuelle.",
+    "mission": "Notre mission est de donner du pouvoir aux créateurs, de promouvoir la diversité culturelle et de faciliter l'accès mondial à des produits culturels authentiques."
   },
   "subscribe": {
     "title": "Restez Connecté",
