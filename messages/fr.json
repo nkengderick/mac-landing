@@ -232,5 +232,95 @@
     "privacy_policy": "Politique de Confidentialité",
     "terms_of_service": "Conditions d'Utilisation",
     "rights_reserved": "© 2024 MAC. Tous droits réservés."
+  },
+  "FAQs": {
+    "title": "Questions Fréquemment Posées",
+    "faq1": {
+      "question": "De quoi s'agit-il sur cette plateforme ?",
+      "answer": "Cette plateforme connecte les artistes et créateurs avec un public mondial, offrant divers outils et services pour présenter, vendre et exporter leur travail."
+    },
+    "faq2": {
+      "question": "Comment puis-je commencer à vendre mon art ?",
+      "answer": "Vous pouvez commencer en créant un compte et en listant vos œuvres d'art. Notre plateforme fournit des outils faciles à utiliser pour gérer vos annonces et ventes."
+    },
+    "faq3": {
+      "question": "Quels moyens de paiement sont acceptés ?",
+      "answer": "Nous acceptons divers moyens de paiement, y compris les cartes de crédit, PayPal et d'autres passerelles de paiement sécurisées."
+    },
+    "faq4": {
+      "question": "Comment contacter le service client ?",
+      "answer": "Vous pouvez contacter notre équipe de support client via le formulaire de contact sur notre site web ou par le biais de la fonction de chat disponible sur la plateforme."
+    }
+  },
+  "howItWorks": {
+    "consumer": {
+      "title": "Comment ça marche pour les Consommateurs",
+      "Step1": {
+        "title": "Découvrir",
+        "description": "Explorez une large gamme d'art et de créateurs disponibles sur notre plateforme.",
+        "icon": "fa-house"
+      },
+      "Step2": {
+        "title": "Sélectionner",
+        "description": "Choisissez vos pièces ou services préférés et ajoutez-les à votre panier.",
+        "icon": "fa-search"
+      },
+      "Step3": {
+        "title": "Acheter",
+        "description": "Finalisez votre achat en utilisant notre processus de paiement sécurisé.",
+        "icon": "fa-credit-card"
+      },
+      "Step4": {
+        "title": "Profiter",
+        "description": "Recevez votre art ou vos services et profitez de vos nouvelles trouvailles !",
+        "icon": "fa-thumbs-up"
+      }
+    },
+    "artCreators": {
+      "title": "Comment ça marche pour les Créateurs d'Art",
+      "Step1": {
+        "title": "Créer",
+        "description": "Téléchargez vos œuvres d'art ou services sur notre plateforme et mettez en avant votre talent.",
+        "icon": "fa-upload"
+      },
+      "Step2": {
+        "title": "Fixer les Prix",
+        "description": "Définissez le prix de vos pièces ou services pour attirer les acheteurs.",
+        "icon": "fa-tag"
+      },
+      "Step3": {
+        "title": "Promouvoir",
+        "description": "Utilisez nos outils pour commercialiser votre travail et atteindre un public plus large.",
+        "icon": "fa-bullhorn"
+      },
+      "Step4": {
+        "title": "Gagner",
+        "description": "Recevez les paiements et développez votre réputation en tant qu'artiste.",
+        "icon": "fa-dollar-sign"
+      }
+    },
+    "app": {
+      "title": "Comment l'Application Fonctionne",
+      "Step1": {
+        "title": "Obtenez des Produits",
+        "description": "Parcourez et sélectionnez des produits d'une gamme diversifiée de créateurs.",
+        "icon": "fa-search"
+      },
+      "Step2": {
+        "title": "Marché",
+        "description": "Promouvez vos produits à un public mondial via notre plateforme.",
+        "icon": "fa-bullhorn"
+      },
+      "Step3": {
+        "title": "Expédition",
+        "description": "Gérez la logistique d'expédition et assurez-vous de la livraison rapide des produits.",
+        "icon": "fa-shipping-fast"
+      },
+      "Step4": {
+        "title": "Suivi",
+        "description": "Suivez vos expéditions et restez informé de l'état de livraison.",
+        "icon": "fa-truck"
+      }
+    }
   }
 }
