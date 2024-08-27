@@ -22,7 +22,7 @@ const Header: FC = () => {
         <header className="bg-card shadow-md z-100 min-w-full">
             <nav className="container mx-auto flex justify-between items-center py-4">
                 {/* Logo */}
-                <div className="text-2xl font-bold text-blue-600">
+                <div className="text-2xl font-bold">
                     <Link href="/">
                         <img src="/assets/logo.png" alt="Mac Logo" className="h-12" />
                     </Link>
@@ -30,28 +30,28 @@ const Header: FC = () => {
 
                 {/* Desktop Menu */}
                 <div className="hidden md:flex space-x-8">
-                    <Link href="/" className="text-gray-800 hover:text-blue-600">
+                    <Link href="/" className="text-gray-800 hover:text-yellow-600">
                         {t('navbar.home')}
                     </Link>
-                    <Link href="#features" className="text-gray-800 hover:text-blue-600">
+                    <Link href="#features" className="text-gray-800 hover:text-yellow-600">
                         {t('navbar.features')}
                     </Link>
-                    <Link href="#who-we-are" className="text-gray-800 hover:text-blue-600">
+                    <Link href="#who-we-are" className="text-gray-800 hover:text-yellow-600">
                         {t('navbar.whoWeAre')}
                     </Link>
-                    <Link href="#partners" className="text-gray-800 hover:text-blue-600">
+                    <Link href="#partners" className="text-gray-800 hover:text-yellow-600">
                         {t('navbar.partners')}
                     </Link>
-                    <Link href="#services" className="text-gray-800 hover:text-blue-600">
+                    <Link href="#services" className="text-gray-800 hover:text-yellow-600">
                         {t('navbar.services')}
                     </Link>
-                    <Link href="#galleries" className="text-gray-800 hover:text-blue-600">
+                    <Link href="#galleries" className="text-gray-800 hover:text-yellow-600">
                         {t('navbar.galleries')}
                     </Link>
-                    <Link href="#blogs" className="text-gray-800 hover:text-blue-600">
+                    <Link href="#blogs" className="text-gray-800 hover:text-yellow-600">
                         {t('navbar.blogs')}
                     </Link>
-                    <Link href="#contact" className="text-gray-800 hover:text-blue-600">
+                    <Link href="#contact" className="text-gray-800 hover:text-yellow-600">
                         {t('navbar.contact')}
                     </Link>
                 </div>
