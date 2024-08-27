@@ -99,13 +99,13 @@
       "influencers": {
         "partners": {
           "1": {
-            "name": "Influencer 1",
+            "name": "CITS, Cameroon Tech Summit",
             "description": "Top influencer in the arts community.",
             "image": "/assets/influencer1.jpg"
           },
           "2": {
-            "name": "Influencer 2",
-            "description": "Leading voice in cultural discussions.",
+            "name": "MINAC, Ministry of Arts and Culture",
+            "description": "Leading voice in cultural discussions Cameroon.",
             "image": "/assets/influencer2.jpg"
           }
         }
@@ -122,7 +122,7 @@
       "rtv_stations": {
         "partners": {
           "1": {
-            "name": "RTV Station 1",
+            "name": "Radio Station",
             "description": "Broadcasting cultural events globally.",
             "image": "/assets/rtv1.jpg"
           }
@@ -140,9 +140,9 @@
       "intellectual_property": {
         "partners": {
           "1": {
-            "name": "IP Lawyer",
+            "name": "The Bar Council",
             "description": "Expert in intellectual property law.",
-            "image": "/assets/lawyer.jpg"
+            "image": "/assets/law.jpg"
           }
         }
       },
@@ -151,16 +151,16 @@
           "1": {
             "name": "Artist Collective",
             "description": "A group of creative minds.",
-            "image": "/assets/artist-collective.jpg"
+            "image": "/assets/237.jpg"
           }
         }
       },
       "payment_gateways": {
         "partners": {
           "1": {
-            "name": "PowerAPi",
+            "name": "Stripe",
             "description": "Secure and fast payment processing.",
-            "image": "/assets/powerapi.jpg"
+            "image": "/assets/stripe.jpg"
           }
         }
       }

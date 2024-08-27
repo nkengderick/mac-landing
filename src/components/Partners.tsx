@@ -4,13 +4,6 @@ import { FC } from "react";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "./ui/card";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "./ui/carousel"; // Adjust the import path as necessary
 
 const Partners: FC = () => {
   const t = useTranslations();
@@ -33,55 +26,46 @@ const Partners: FC = () => {
           {t("partners.title")}
         </h2>
 
-        <Carousel>
-          <CarouselContent>
-            {categories.map((category) => (
-              Object.keys(t(`partners.categories.${category}.partners`)).map((key) => {
-                const imagePath = t(`partners.categories.${category}.partners.${key}.image`);
-                const imageAlt = t(`partners.categories.${category}.partners.${key}.name`);
+        {/* Grid layout for partners */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          {categories.map((category) =>
+            Object.keys(t(`partners.categories.${category}.partners`)).map((key) => {
+              const imagePath = t(`partners.categories.${category}.partners.${key}.image`);
+              const imageAlt = t(`partners.categories.${category}.partners.${key}.name`);
 
-                // Ensure imagePath is a valid URL or starts with a leading slash
-                if (!imagePath.startsWith('/') && !/^https?:\/\//.test(imagePath)) {
-                  console.error(`Invalid image path: ${imagePath}`);
-                  return null;
-                }
+              // Ensure imagePath is a valid URL or starts with a leading slash
+              if (!imagePath.startsWith('/') && !/^https?:\/\//.test(imagePath)) {
+                console.error(`Invalid image path: ${imagePath}`);
+                return null;
+              }
 
-                return (
-                  <CarouselItem key={key}>
-                    <Card className="hover:shadow-lg transition-shadow duration-300 flex flex-col md:flex-row">
-                      {/* Partner Logo */}
-                      <CardHeader className="md:w-1/4 flex justify-center items-center p-6">
-                        <Image
-                          src={imagePath}
-                          alt={imageAlt}
-                          width={80}
-                          height={80}
-                          className="object-contain"
-                        />
-                      </CardHeader>
+              return (
+                <Card key={key} className="hover:shadow-lg transition-shadow duration-300 flex flex-col">
+                  {/* Partner Logo */}
+                  <CardHeader className="flex justify-center items-center p-6">
+                    <Image
+                      src={imagePath}
+                      alt={imageAlt}
+                      width={80}
+                      height={80}
+                      className="object-contain"
+                    />
+                  </CardHeader>
 
-                      {/* Partner Information */}
-                      <CardContent className="md:w-3/4 p-6">
-                        <CardTitle className="text-xl font-semibold text-gray-900">
-                          {t(`partners.categories.${category}.partners.${key}.name`)}
-                        </CardTitle>
-                        <CardDescription className="text-gray-700 mt-2">
-                          {t(`partners.categories.${category}.partners.${key}.description`)}
-                        </CardDescription>
-                      </CardContent>
-                    </Card>
-                  </CarouselItem>
-                );
-              })
-            ))}
-          </CarouselContent>
-          <CarouselPrevious className="absolute left-0 top-1/2 transform -translate-y-1/2">
-            <button className="p-2 bg-gray-700 text-white rounded-full">Prev</button>
-          </CarouselPrevious>
-          <CarouselNext className="absolute right-0 top-1/2 transform -translate-y-1/2">
-            <button className="p-2 bg-gray-700 text-white rounded-full">Next</button>
-          </CarouselNext>
-        </Carousel>
+                  {/* Partner Information */}
+                  <CardContent className="p-6">
+                    <CardTitle className="text-xl font-semibold text-gray-900">
+                      {t(`partners.categories.${category}.partners.${key}.name`)}
+                    </CardTitle>
+                    <CardDescription className="text-gray-700 mt-2">
+                      {t(`partners.categories.${category}.partners.${key}.description`)}
+                    </CardDescription>
+                  </CardContent>
+                </Card>
+              );
+            })
+          )}
+        </div>
       </div>
     </section>
   );
