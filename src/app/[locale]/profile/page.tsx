@@ -14,8 +14,8 @@ const Profile = () => {
       setUserRole(storedRole);
       // Define the dashboards based on roles
       const dashboardRoutes: { [key: string]: string } = {
-        creator: '/dashboard/creator',
-        customer: '/dashboard/customer',
+        creator: 'https://www.app.com/dashboard/creator',
+        customer: 'https://www.app.com/dashboard/customer',
       };
       const dashboardRoute = dashboardRoutes[storedRole] || dashboardRoutes.customer;
       
