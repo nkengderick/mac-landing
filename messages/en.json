@@ -94,7 +94,7 @@
     }
   },
   "partners": {
-    "title": "Our Partners",
+    "title": "Collaborators and Partners",
     "categories": {
       "influencers": {
         "partners": {
@@ -114,7 +114,7 @@
         "partners": {
           "1": {
             "name": "FEDEx",
-            "description": "Reliable delivery services worldwide.",
+            "description": "Reliable Airline services in Africa.",
             "image": "/assets/fedex.jpg"
           }
         }

@@ -11,8 +11,6 @@ const Partners: FC = () => {
   // Define categories
   const categories = [
     "influencers",
-    "flight_agencies",
-    "rtv_stations",
     "delivery_services",
     "intellectual_property",
     "arts_creators",
