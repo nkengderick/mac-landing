@@ -1,6 +1,7 @@
 import { NextIntlClientProvider } from 'next-intl';
-import '../globals.css'
+import '../globals.css';
 import { getMessages } from 'next-intl/server';
+import Header from '@/components/Header';
 
 export default async function LocaleLayout({
   children,
@@ -14,9 +15,9 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <body suppressHydrationWarning={true}>
+      <body suppressHydrationWarning={true} className="relative">
         <NextIntlClientProvider messages={messages}>
-          <div className="">
+          <div className="pt-16"> {/* Adjust padding-top based on header height */}
             {children}
           </div>
         </NextIntlClientProvider>

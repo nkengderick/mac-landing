@@ -17,13 +17,13 @@ import HowItWorks from '@/components/HowItWorks';
 
 const Home: FC = () => {
   return (
-    <div>
+    <div className='relative'>
 
       <div id='chatbot' className='fixed left-0 bottom-4 z-50'>
         <Bot />
       </div>
 
-      <header id="header" className='pb-16'>
+      <header id="header" className='fixed z-100 w-full top-0'>
         <Header />
       </header>
 

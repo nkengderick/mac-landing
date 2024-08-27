@@ -19,11 +19,13 @@ const Header: FC = () => {
     };
 
     return (
-        <header className="bg-white shadow-md">
+        <header className="bg-card shadow-md z-100 min-w-full">
             <nav className="container mx-auto flex justify-between items-center py-4">
                 {/* Logo */}
                 <div className="text-2xl font-bold text-blue-600">
-                    <Link href="/">Mac</Link>
+                    <Link href="/">
+                        <img src="/assets/logo.png" alt="Mac Logo" className="h-12" />
+                    </Link>
                 </div>
 
                 {/* Desktop Menu */}
