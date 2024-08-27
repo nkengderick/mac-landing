@@ -70,8 +70,7 @@ const Header: FC = () => {
                             <DropdownMenuItem onSelect={() => changeLanguage('es')}>Español</DropdownMenuItem>
                         </DropdownMenuContent>
                     </DropdownMenu>
-                    <Button variant="outline">{t('navbar.login')}</Button>
-                    <Button>{t('navbar.signup')}</Button>
+                    <Button onClick={()=> router.push('select-role')}>{t('navbar.signup')}</Button>
                 </div>
 
                 {/* Mobile Menu */}
@@ -124,12 +123,7 @@ const Header: FC = () => {
                                 </Link>
                             </DropdownMenuItem>
                             <DropdownMenuItem asChild>
-                                <Link href="/login" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">
-                                    {t('navbar.login')}
-                                </Link>
-                            </DropdownMenuItem>
-                            <DropdownMenuItem asChild>
-                                <Link href="/signup" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">
+                                <Link href="/sign-up" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">
                                     {t('navbar.signup')}
                                 </Link>
                             </DropdownMenuItem>
