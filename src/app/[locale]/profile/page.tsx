@@ -12,15 +12,22 @@ const Profile = () => {
     const storedRole = localStorage.getItem('userRole');
     if (storedRole) {
       setUserRole(storedRole);
+
       // Define the dashboards based on roles
       const dashboardRoutes: { [key: string]: string } = {
         creator: 'https://www.app.com/dashboard/creator',
         customer: 'https://www.app.com/dashboard/customer',
       };
       const dashboardRoute = dashboardRoutes[storedRole] || dashboardRoutes.customer;
-      
-      // Redirect to the appropriate dashboard
-      router.push(dashboardRoute);
+
+      // Set a timeout to delay the redirect by 1 second
+      const timer = setTimeout(() => {
+        // Redirect to the appropriate dashboard
+        router.push(dashboardRoute);
+      }, 1000);
+
+      // Cleanup the timer if the component unmounts
+      return () => clearTimeout(timer);
     }
   }, [router]);
 
@@ -28,6 +35,9 @@ const Profile = () => {
     <div className="flex h-screen items-center justify-center">
       <div className="text-center">
         <Loader2 className="animate-spin text-gray-500 mx-auto mb-4" size={48} />
+        <p className="text-lg font-medium text-gray-600 mb-2">
+          Creating your account...
+        </p>
         <p className="text-lg font-medium text-gray-600">
           Redirecting to {userRole === 'creator' ? 'Creator' : 'Customer'} App...
         </p>
