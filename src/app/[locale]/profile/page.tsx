@@ -15,8 +15,8 @@ const Profile = () => {
 
       // Define the dashboards based on roles
       const dashboardRoutes: { [key: string]: string } = {
-        creator: 'https://www.app.com/dashboard/creator',
-        customer: 'https://www.app.com/dashboard/customer',
+        creator: 'https://eccomerce-client-ten.vercel.app/',
+        customer: 'https://macecommerceplatform-hacking-priests-projects.vercel.app/',
       };
       const dashboardRoute = dashboardRoutes[storedRole] || dashboardRoutes.customer;
 

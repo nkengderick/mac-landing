@@ -11,7 +11,7 @@ const SelectRole = () => {
   const handleRoleSelection = (selectedRole: 'creator' | 'customer') => {
     setRole(selectedRole);
     localStorage.setItem('userRole', selectedRole);
-    router.push('/sign-up');
+    router.push('/profile');
   };
 
   return (

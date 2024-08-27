@@ -1,28 +1,22 @@
-import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
 import createMiddleware from 'next-intl/middleware';
 
-const isDashboardRoute = createRouteMatcher(['/dashboard(.*)']);
-const isSignUpRoute = createRouteMatcher(['/sign-up(.*)']);
-
-const intlMiddleware = createMiddleware({
+export default createMiddleware({
   locales: ['en', 'fr', 'es', 'de'],
-  defaultLocale: 'en',
-});
-
-export default clerkMiddleware((auth, request) => {
-  if (isDashboardRoute(request)) {
-    auth().protect();
-  }
-
-  return intlMiddleware(request);
+  defaultLocale: 'en'
 });
 
 export const config = {
   matcher: [
-    // Other routes
-    '/((?!_next|_vercel|.*\\..*).*)',
-    '/(api|trpc)(.*)',
-    // Ensure the sign-up route is not protected
-    '/sign-up/[[...rest]]',
-  ],
+    // Enable a redirect to a matching locale at the root
+    '/',
+
+    // Set a cookie to remember the previous locale for
+    // all requests that have a locale prefix
+    '/(fr|en|es|de)/:path*',
+
+    '/', '/marketplace', '/explore', '/resources', '/sign-up', '/sing-in', '/events', '/profile', '/community', '/(en|fr)/:path*',
+    // Enable redirects that add missing locales
+    // (e.g. `/pathnames` -> `/en/pathnames`)
+    '/((?!_next|_vercel|.*\\..*).*)'
+  ]
 };
