@@ -302,24 +302,24 @@
     "app": {
       "title": "How The App Works",
       "Step1": {
-        "title": "Download",
-        "description": "Get the app from your preferred app store and install it.",
-        "icon": "fa-download"
+        "title": "Get Products",
+        "description": "Browse and select products from a diverse range of creators.",
+        "icon": "fa-search"
       },
       "Step2": {
-        "title": "Register",
-        "description": "Create an account or log in to access all features.",
-        "icon": "fa-user-plus"
+        "title": "Market",
+        "description": "Promote your products to a global audience through our platform.",
+        "icon": "fa-bullhorn"
       },
       "Step3": {
-        "title": "Customize",
-        "description": "Set up your preferences and explore the app’s features.",
-        "icon": "fa-cogs"
+        "title": "Shipping",
+        "description": "Manage shipping logistics and ensure timely delivery of products.",
+        "icon": "fa-shipping-fast"
       },
       "Step4": {
-        "title": "Use",
-        "description": "Start using the app to discover, create, and enjoy art.",
-        "icon": "fa-play"
+        "title": "Tracking",
+        "description": "Track your shipments and stay updated on delivery status.",
+        "icon": "fa-truck"
       }
     }
   }
