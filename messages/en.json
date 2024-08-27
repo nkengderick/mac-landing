@@ -232,5 +232,95 @@
     "privacy_policy": "Privacy Policy",
     "terms_of_service": "Terms of Service",
     "rights_reserved": "© 2024 MAC. All rights reserved."
+  },
+  "FAQs": {
+    "title": "Frequently Asked Questions",
+    "faq1": {
+      "question": "What is this platform about?",
+      "answer": "This platform connects artists and creators with a global audience, offering various tools and services to showcase, sell and export their work."
+    },
+    "faq2": {
+      "question": "How can I start selling my art?",
+      "answer": "You can start by creating an account and listing your art pieces. Our platform provides easy-to-use tools to manage your listings and sales."
+    },
+    "faq3": {
+      "question": "What payment methods are supported?",
+      "answer": "We support various payment methods including credit cards, PayPal, and other secure payment gateways."
+    },
+    "faq4": {
+      "question": "How do I contact customer support?",
+      "answer": "You can contact our customer support team via the contact form on our website or through the chat feature available on the platform."
+    }
+  },
+  "howItWorks": {
+    "consumer": {
+      "title": "How It Works for Consumers",
+      "Step1": {
+        "title": "Discover",
+        "description": "Explore a wide range of art and creators available on our platform.",
+        "icon": "fa-house"
+      },
+      "Step2": {
+        "title": "Select",
+        "description": "Choose your favorite pieces or services and add them to your cart.",
+        "icon": "fa-search"
+      },
+      "Step3": {
+        "title": "Purchase",
+        "description": "Complete your purchase using our secure checkout process.",
+        "icon": "fa-credit-card"
+      },
+      "Step4": {
+        "title": "Enjoy",
+        "description": "Receive your art or services and enjoy your new finds!",
+        "icon": "fa-thumbs-up"
+      }
+    },
+    "artCreators": {
+      "title": "How It Works for Art Creators",
+      "Step1": {
+        "title": "Create",
+        "description": "Upload your art or services to our platform and showcase your talent.",
+        "icon": "fa-upload"
+      },
+      "Step2": {
+        "title": "Set Pricing",
+        "description": "Define the pricing for your pieces or services to attract buyers.",
+        "icon": "fa-tag"
+      },
+      "Step3": {
+        "title": "Promote",
+        "description": "Use our tools to market your work and reach a larger audience.",
+        "icon": "fa-bullhorn"
+      },
+      "Step4": {
+        "title": "Earn",
+        "description": "Receive payments and grow your reputation as an artist.",
+        "icon": "fa-dollar-sign"
+      }
+    },
+    "app": {
+      "title": "How The App Works",
+      "Step1": {
+        "title": "Download",
+        "description": "Get the app from your preferred app store and install it.",
+        "icon": "fa-download"
+      },
+      "Step2": {
+        "title": "Register",
+        "description": "Create an account or log in to access all features.",
+        "icon": "fa-user-plus"
+      },
+      "Step3": {
+        "title": "Customize",
+        "description": "Set up your preferences and explore the app’s features.",
+        "icon": "fa-cogs"
+      },
+      "Step4": {
+        "title": "Use",
+        "description": "Start using the app to discover, create, and enjoy art.",
+        "icon": "fa-play"
+      }
+    }
   }
 }

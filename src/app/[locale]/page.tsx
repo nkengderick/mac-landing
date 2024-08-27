@@ -12,6 +12,8 @@ import Blogs from '@/components/Blogs';
 import WhoWeAre from '@/components/WhoWeAre';
 import Bot from '@/components/Bot';
 import WhyUs from '@/components/WhyUs';
+import FAQs from '@/components/Faqs';
+import HowItWorks from '@/components/HowItWorks';
 
 const Home: FC = () => {
   return (
@@ -38,8 +40,11 @@ const Home: FC = () => {
       </section>
 
       <section id="services" className="pb-16">
-        <Services />
         <WhyUs />
+      </section>
+
+      <section id="services" className="pb-16">
+        <Services />
       </section>
 
       <section id="galleries" className="pb-16">
@@ -52,6 +57,14 @@ const Home: FC = () => {
 
       <section id="partners" className="pb-16">
         <Partners />
+      </section>
+
+      <section id="howitworks" className="pb-16">
+        <HowItWorks />
+      </section>
+     
+      <section id="faqs" className="pb-16">
+        <FAQs />
       </section>
 
       <section id="subscribe" className="pb-16">
