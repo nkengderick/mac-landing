@@ -12,7 +12,7 @@ const Features: FC = () => {
     "multilingual_support",
     "security_trust",
     "chat_bot",
-    "virtual_reality"
+    "analytics_insights"
   ];
 
   return (

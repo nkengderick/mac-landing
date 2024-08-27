@@ -6,6 +6,13 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Button } from "./ui/button";
 import { Dialog, DialogContent, DialogTitle } from "./ui/dialog";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 const Blogs: FC = () => {
   const t = useTranslations();
@@ -33,30 +40,40 @@ const Blogs: FC = () => {
           {t("blogs.title")}
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {['0', '1', '2'].map((key) => (
-            <Card key={key} className="hover:shadow-lg transition-shadow duration-300">
-              <CardHeader className="flex justify-center items-center p-4">
-                <Image
-                  src={getImageSrc(t(`blogs.articles.${key}.image`))}
-                  alt={t(`blogs.articles.${key}.title`)}
-                  width={100}
-                  height={100}
-                />
-              </CardHeader>
-              <CardContent>
-                <CardTitle className="text-xl font-semibold text-gray-900">
-                  {t(`blogs.articles.${key}.title`)}
-                </CardTitle>
-                <CardDescription className="text-gray-700 mt-2">
-                  {t(`blogs.articles.${key}.summary`)}
-                </CardDescription>
-                <Button variant="default" className="mt-4" onClick={() => handleOpen(key)}>
-                  {t("blogs.details_button")}
-                </Button>
-              </CardContent>
-            </Card>
-          ))}
+        <div className="flex justify-center">
+          <div className="max-w-[80%]">
+            <Carousel>
+              <CarouselContent>
+                {['0', '1', '2'].map((key) => (
+                  <CarouselItem key={key}>
+                    <Card className="hover:shadow-lg transition-shadow duration-300">
+                      <CardHeader className="flex justify-center items-center p-4">
+                        <Image
+                          src={getImageSrc(t(`blogs.articles.${key}.image`))}
+                          alt={t(`blogs.articles.${key}.title`)}
+                          width={100}
+                          height={100}
+                        />
+                      </CardHeader>
+                      <CardContent>
+                        <CardTitle className="text-xl font-semibold text-gray-900">
+                          {t(`blogs.articles.${key}.title`)}
+                        </CardTitle>
+                        <CardDescription className="text-gray-700 mt-2">
+                          {t(`blogs.articles.${key}.summary`)}
+                        </CardDescription>
+                        <Button variant="default" className="mt-4" onClick={() => handleOpen(key)}>
+                          {t("blogs.details_button")}
+                        </Button>
+                      </CardContent>
+                    </Card>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+              <CarouselPrevious />
+              <CarouselNext />
+            </Carousel>
+          </div>
         </div>
 
         {selectedBlog && (
@@ -74,6 +91,7 @@ const Blogs: FC = () => {
                   className="object-cover mb-4"
                 />
               )}
+              <p>{t(`blogs.articles.${selectedBlog}.summary`)}</p>
               <p>{t(`blogs.articles.${selectedBlog}.content`)}</p>
               <Button variant="outline" className="mt-4" onClick={handleClose}>
                 {t("blogs.close_button")}

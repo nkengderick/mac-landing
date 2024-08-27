@@ -1,11 +1,13 @@
 {
   "navbar": {
     "home": "Home",
-    "about": "About",
     "features": "Features",
+    "whoWeAre": "Who We Are",
+    "partners": "Partners",
     "services": "Services",
+    "galleries": "Galleries",
+    "blogs": "Blogs",
     "contact": "Contact",
-    "blog": "News",
     "login": "Login",
     "signup": "Sign Up"
   },
@@ -36,15 +38,15 @@
       "description": "We ensure that all transactions and interactions on our platform are secure and trustworthy.",
       "image": "/assets/security-trust.png"
     },
+    "analytics_insights": {
+      "title": "Analytics and Insights",
+      "description": "Gain valuable insights into your performance with our comprehensive analytics tools.",
+      "image": "/assets/analytics-insights.png"
+    },
     "chat_bot": {
       "title": "AI Chat Bot",
       "description": "Our AI-powered chat bot is available 24/7 to assist with any inquiries.",
       "image": "/assets/chat-bot.png"
-    },
-    "virtual_reality": {
-      "title": "Virtual Reality",
-      "description": "Experience art and culture in immersive virtual reality environments.",
-      "image": "/assets/virtual-reality.png"
     }
   },
   "services": {
@@ -56,8 +58,8 @@
         "image": "/assets/sell-art.png"
       },
       "learn": {
-        "title": "Learn and Grow",
-        "description": "Access resources to help you grow your skills and knowledge.",
+        "title": "Teach your Culture Globally",
+        "description": "Global enthusiasts can take lessons to learn about the culture in a particular locality, enriching their understanding and appreciation of diverse cultures.",
         "image": "/assets/learn-grow.png"
       },
       "export": {
@@ -70,6 +72,25 @@
         "description": "Utilize our platform's tools to promote your art effectively.",
         "image": "/assets/promote-work.png"
       }
+    }
+  },
+  "WhyUs": {
+    "title": "Why Choose Us?",
+    "benefit1": {
+      "title": "Expertise",
+      "description": "Our team is composed of industry experts with years of experience in delivering high-quality art and design."
+    },
+    "benefit2": {
+      "title": "Quality Assurance and Security",
+      "description": "We maintain rigorous quality control processes to ensure every piece of art meets our high standards."
+    },
+    "benefit3": {
+      "title": "Customer Support",
+      "description": "Our support team is always ready to assist you with any inquiries, ensuring a smooth and pleasant experience."
+    },
+    "benefit4": {
+      "title": "Low Shipping Costs",
+      "description": "We offer competitive shipping rates, making it affordable to send your art to customers worldwide."
     }
   },
   "partners": {

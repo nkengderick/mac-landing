@@ -1,124 +1,234 @@
 {
-  "home": {
-    "heroTitle": "Bienvenue sur Culture Hub",
-    "heroSubtitle": "Découvrez et mettez en valeur des talents créatifs",
-    "ctaButton": "Commencer",
-    "topProducts": "Produits Phare",
-    "signInSignUp": "Connexion / Inscription",
-    "browseCategories": "Parcourir les Catégories"
+  "navbar": {
+    "home": "Accueil",
+    "features": "Fonctionnalités",
+    "whoWeAre": "Qui Nous Sommes",
+    "partners": "Partenaires",
+    "services": "Services",
+    "galleries": "Galeries",
+    "blogs": "Blogs",
+    "contact": "Contact",
+    "login": "Connexion",
+    "signup": "S'inscrire"
   },
-  "common": {
-    "viewMore": "Voir Plus",
-    "buyNow": "Acheter Maintenant",
-    "learnMore": "En Savoir Plus"
+  "hero": {
+    "title": "Art et Culture du Cameroun",
+    "subtitle": "Autonomiser les Créateurs, Connecter les Cultures",
+    "hub_for": "Un Hub pour",
+    "animated_texts": [
+      "Artistes & Créateurs",
+      "Enthousiastes Culturels",
+      "Publics Internationaux",
+      "Échanges Culturels"
+    ],
+    "buttons": {
+      "get_started": "Commencer",
+      "learn_more": "En Savoir Plus"
+    }
   },
-  "signup": {
-    "title": "Inscription",
-    "name": "Nom Complet",
-    "email": "Adresse Email",
-    "password": "Mot de Passe",
-    "userType": "Sélectionnez le Type d'Utilisateur",
-    "creator": "Créateur",
-    "customer": "Client",
-    "institution": "Institution",
-    "submit": "S'inscrire",
-    "step2": {
-      "creator": {
-        "title": "Configuration du Profil Créateur",
-        "bio": "Courte Biographie",
-        "portfolio": "Lien du Portfolio",
-        "genres": "Genres ou Formes d'Art",
-        "submit": "Terminer l'Inscription"
+  "features": {
+    "title": "Nos Fonctionnalités Principales",
+    "multilingual_support": {
+      "title": "Support Multilingue",
+      "description": "Notre plateforme prend en charge plusieurs langues, permettant aux créateurs et aux consommateurs d'interagir dans leur langue préférée.",
+      "image": "/assets/multilingual-support.png"
+    },
+    "security_trust": {
+      "title": "Sécurité & Confiance",
+      "description": "Nous garantissons que toutes les transactions et interactions sur notre plateforme sont sécurisées et dignes de confiance.",
+      "image": "/assets/security-trust.png"
+    },
+    "analytics_insights": {
+      "title": "Analyses et Perspectives",
+      "description": "Obtenez des informations précieuses sur vos performances grâce à nos outils d'analyse complets.",
+      "image": "/assets/analytics-insights.png"
+    },
+    "chat_bot": {
+      "title": "Chatbot AI",
+      "description": "Notre chatbot alimenté par l'IA est disponible 24h/24 et 7j/7 pour répondre à toutes vos questions.",
+      "image": "/assets/chat-bot.png"
+    }
+  },
+  "services": {
+    "title": "Nos Services",
+    "items": {
+      "sell": {
+        "title": "Vendez Votre Art",
+        "description": "Répertoriez et vendez facilement vos créations à un public mondial.",
+        "image": "/assets/sell-art.png"
       },
-      "customer": {
-        "title": "Configuration du Profil Client",
-        "preferences": "Préférences Culturelles",
-        "interests": "Domaines d'Intérêt",
-        "submit": "Terminer l'Inscription"
+      "learn": {
+        "title": "Enseignez votre Culture à l'Échelle Mondiale",
+        "description": "Les passionnés du monde entier peuvent suivre des cours pour découvrir la culture d'une localité particulière, enrichissant leur compréhension et leur appréciation des cultures diverses.",
+        "image": "/assets/learn-grow.png"
       },
-      "institution": {
-        "title": "Configuration du Profil Institution",
-        "organizationName": "Nom de l'Organisation",
-        "contactPerson": "Personne de Contact",
-        "website": "URL du Site Web",
-        "submit": "Terminer l'Inscription"
+      "export": {
+        "title": "Exportez à l'International",
+        "description": "Exportez votre art vers des marchés internationaux en toute simplicité.",
+        "image": "/assets/export-globally.png"
+      },
+      "promotions": {
+        "title": "Faites la Promotion de Votre Œuvre",
+        "description": "Utilisez les outils de notre plateforme pour promouvoir efficacement votre art.",
+        "image": "/assets/promote-work.png"
       }
     }
   },
-  "tabBar": {
-    "home": "Accueil",
-    "explore": "Explorer",
-    "marketplace": "Marché",
-    "profile": "Profil"
+  "WhyUs": {
+    "title": "Pourquoi Nous Choisir?",
+    "benefit1": {
+      "title": "Expertise",
+      "description": "Notre équipe est composée d'experts du secteur avec des années d'expérience dans la livraison d'art et de design de haute qualité."
+    },
+    "benefit2": {
+      "title": "Assurance Qualité et Sécurité",
+      "description": "Nous maintenons des processus rigoureux de contrôle de qualité pour garantir que chaque œuvre d'art répond à nos normes élevées."
+    },
+    "benefit3": {
+      "title": "Service Client",
+      "description": "Notre équipe de support est toujours prête à vous aider pour toute demande, assurant une expérience fluide et agréable."
+    },
+    "benefit4": {
+      "title": "Frais de Livraison Réduits",
+      "description": "Nous offrons des tarifs d'expédition compétitifs, rendant l'envoi de vos œuvres d'art abordable pour les clients du monde entier."
+    }
   },
-  "sidebar": {
-    "title": "Menu",
-    "home": "Accueil",
-    "explore": "Explorer",
-    "marketplace": "Marché",
-    "profile": "Profil"
-  },
-  "header": {
-    "name": "Culture Hub",
-    "marketplace": "Marché",
-    "explore": "Explorer",
-    "community": "Communauté",
-    "resources": "Ressources",
-    "events": "Événements",
-    "signIn": "Se Connecter"
-  },
-  "marketplace": {
-    "title": "Marché"
-  },
-  "searchFilters": {
-    "searchPlaceholder": "Rechercher...",
-    "filtersTitle": "Filtres",
-    "categoryLabel": "Catégorie",
-    "priceRangeLabel": "Gamme de Prix",
-    "applyFiltersButton": "Appliquer les Filtres",
+  "partners": {
+    "title": "Nos Partenaires",
     "categories": {
-      "all": "Toutes les Catégories",
-      "art": "Art",
-      "music": "Musique",
-      "literature": "Littérature",
-      "crafts": "Artisanat"
+      "influencers": {
+        "partners": {
+          "1": {
+            "name": "Influenceur 1",
+            "description": "Influenceur de premier plan dans la communauté artistique.",
+            "image": "/assets/influencer1.jpg"
+          },
+          "2": {
+            "name": "Influenceur 2",
+            "description": "Voix dominante dans les discussions culturelles.",
+            "image": "/assets/influencer2.jpg"
+          }
+        }
+      },
+      "flight_agencies": {
+        "partners": {
+          "1": {
+            "name": "FEDEx",
+            "description": "Services de livraison fiables dans le monde entier.",
+            "image": "/assets/fedex.jpg"
+          }
+        }
+      },
+      "rtv_stations": {
+        "partners": {
+          "1": {
+            "name": "Station RTV 1",
+            "description": "Diffusion d'événements culturels à l'échelle mondiale.",
+            "image": "/assets/rtv1.jpg"
+          }
+        }
+      },
+      "delivery_services": {
+        "partners": {
+          "1": {
+            "name": "DHL",
+            "description": "Livraisons rapides et sécurisées dans le monde entier.",
+            "image": "/assets/dhl.jpg"
+          }
+        }
+      },
+      "intellectual_property": {
+        "partners": {
+          "1": {
+            "name": "Avocat en PI",
+            "description": "Expert en droit de la propriété intellectuelle.",
+            "image": "/assets/lawyer.jpg"
+          }
+        }
+      },
+      "arts_creators": {
+        "partners": {
+          "1": {
+            "name": "Collectif d'Artistes",
+            "description": "Un groupe d'esprits créatifs.",
+            "image": "/assets/artist-collective.jpg"
+          }
+        }
+      },
+      "payment_gateways": {
+        "partners": {
+          "1": {
+            "name": "PowerAPi",
+            "description": "Traitement des paiements sécurisé et rapide.",
+            "image": "/assets/powerapi.jpg"
+          }
+        }
+      }
     }
   },
-  "explore": {
-    "title": "Explorer les Catégories",
-    "explore": "Explorer",
-    "art": {
-      "title": "Art",
-      "description": "Découvrez diverses formes d'art provenant de différentes cultures."
-    },
-    "music": {
-      "title": "Musique",
-      "description": "Découvrez la musique traditionnelle et moderne du monde entier."
-    },
-    "literature": {
-      "title": "Littérature",
-      "description": "Plongez dans le monde de la littérature et de la narration."
-    },
-    "crafts": {
-      "title": "Artisanat",
-      "description": "Trouvez des objets artisanaux uniques et faits main."
+  "galleries": {
+    "title": "Nos Galeries",
+    "items": {
+      "0": {
+        "title": "Galerie d'Art 1",
+        "image": "/assets/gallery1.jpg",
+        "description": "Une belle collection d'art contemporain."
+      },
+      "1": {
+        "title": "Galerie d'Art 2",
+        "image": "/assets/gallery2.jpg",
+        "description": "Découvrez les formes d'art et artisanat traditionnels."
+      },
+      "2": {
+        "title": "Galerie d'Art 3",
+        "image": "/assets/gallery3.jpg",
+        "description": "Une vitrine de l'art moderne et abstrait."
+      }
     }
   },
-  "community": {
-    "title": "Communauté",
-    "discussionsTitle": "Discussions",
-    "questionsTitle": "Questions"
+  "blogs": {
+    "title": "Derniers Articles",
+    "details_button": "Détails",
+    "close_button": "Fermer",
+    "articles": {
+      "0": {
+        "title": "La Pré-sortie des Artéfacts Culturels",
+        "summary": "Découvrez l'histoire derrière la pré-sortie d'un artefact culturel unique qui incarne l'esprit du Cameroun.",
+        "content": "L'événement de pré-sortie de cet artefact culturel met en lumière l'artisanat complexe et la signification culturelle profonde intégrée dans chaque pièce. Cet artefact reflète non seulement le riche patrimoine du Cameroun mais aussi le pont entre la tradition et la modernité.",
+        "image": "/assets/pre-release-artifact.jpg"
+      },
+      "1": {
+        "title": "Explorer la Diversité Culturelle du Cameroun",
+        "summary": "Une plongée profonde dans la riche diversité culturelle du Cameroun, présentant les diverses formes d'artisanat traditionnel.",
+        "content": "La diversité culturelle du Cameroun est une tapisserie de traditions et de coutumes, chacune unique aux différents groupes ethniques qui habitent la région. Ce blog explore les festivals colorés, la musique traditionnelle et la large gamme d'artisanat qui font du Cameroun un centre culturel vibrant.",
+        "image": "/assets/cultural-diversity.jpg"
+      },
+      "2": {
+        "title": "L'Impact de l'Art sur l'Économie du Cameroun",
+        "summary": "Comment l'art et les produits culturels contribuent à la croissance de l'économie camerounaise.",
+        "content": "L'art joue un rôle significatif dans l'économie camerounaise, non seulement en préservant le patrimoine culturel mais aussi en stimulant le tourisme et en créant des opportunités d'emploi. Ce blog examine l'impact économique de l'industrie de l'art et son potentiel de croissance future.",
+        "image": "/assets/art-economy-impact.jpg"
+      }
+    }
   },
-  "discussionCard": {
-    "upvotes": "Votes",
-    "comments": "Commentaires",
-    "viewDetails": "Voir les Détails"
+  "who_we_are": {
+    "title": "Qui Nous Sommes",
+    "tagline": "Maison de la Créativité",
+    "description": "Nous sommes Mac (Marketing Arts and Culture), une organisation dédiée à la promotion des exportations culturelles en connectant les artisans locaux avec les passionnés du monde entier. En tant qu'intermédiaire, nous veillons à ce que le riche patrimoine culturel de nos artisans atteigne tous les coins du monde.",
+    "image_alt": "MAC - Maison de la Créativité",
+    "image_url": "/assets/logo-mockup.png"
   },
-  "questionCard": {
-    "answers": "Réponses",
-    "viewDetails": "Voir les Détails"
+  "subscribe": {
+    "title": "Restez Connecté",
+    "subtitle": "Abonnez-vous à notre newsletter",
+    "placeholder": "Entrez votre email",
+    "button_text": "S'abonner"
   },
-  "productCard": {
-    "viewDetails": "Voir les Détails"
+  "footer": {
+    "about_us": "À Propos de Nous",
+    "contact_us": "Nous Contacter",
+    "privacy_policy": "Politique de Confidentialité",
+    "terms_of_service": "Conditions d'Utilisation",
+    "rights_reserved": "© 2024 MAC. Tous droits réservés."
   }
 }

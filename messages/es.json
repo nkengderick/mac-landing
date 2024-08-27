@@ -1,0 +1,216 @@
+{
+    "navbar": {
+      "home": "Inicio",
+      "features": "Características",
+      "whoWeAre": "Quiénes Somos",
+      "partners": "Socios",
+      "services": "Servicios",
+      "galleries": "Galerías",
+      "blogs": "Blogs",
+      "contact": "Contacto",
+      "login": "Iniciar Sesión",
+      "signup": "Registrarse"
+    },
+    "hero": {
+      "title": "Arte y Cultura de Camerún",
+      "subtitle": "Empoderando Creadores, Conectando Culturas",
+      "hub_for": "Un Centro para",
+      "animated_texts": [
+        "Artistas y Creadores",
+        "Entusiastas de la Cultura",
+        "Audiencias Globales",
+        "Intercambio Cultural"
+      ],
+      "buttons": {
+        "get_started": "Comenzar",
+        "learn_more": "Aprender Más"
+      }
+    },
+    "features": {
+      "title": "Nuestras Características Principales",
+      "multilingual_support": {
+        "title": "Soporte Multilingüe",
+        "description": "Nuestra plataforma admite varios idiomas, lo que permite a creadores y consumidores interactuar en su idioma preferido.",
+        "image": "/assets/multilingual-support.png"
+      },
+      "security_trust": {
+        "title": "Seguridad y Confianza",
+        "description": "Nos aseguramos de que todas las transacciones e interacciones en nuestra plataforma sean seguras y confiables.",
+        "image": "/assets/security-trust.png"
+      },
+      "chat_bot": {
+        "title": "Chatbot IA",
+        "description": "Nuestro chatbot impulsado por IA está disponible 24/7 para asistir en cualquier consulta.",
+        "image": "/assets/chat-bot.png"
+      },
+      "virtual_reality": {
+        "title": "Realidad Virtual",
+        "description": "Experimenta el arte y la cultura en entornos inmersivos de realidad virtual.",
+        "image": "/assets/virtual-reality.png"
+      }
+    },
+    "services": {
+      "title": "Nuestros Servicios",
+      "items": {
+        "sell": {
+          "title": "Vende Tu Arte",
+          "description": "Lista y vende fácilmente tus creaciones a una audiencia global.",
+          "image": "/assets/sell-art.png"
+        },
+        "learn": {
+          "title": "Aprende y Crece",
+          "description": "Accede a recursos para ayudarte a mejorar tus habilidades y conocimientos.",
+          "image": "/assets/learn-grow.png"
+        },
+        "export": {
+          "title": "Exporta Globalmente",
+          "description": "Exporta tu arte a mercados internacionales con facilidad.",
+          "image": "/assets/export-globally.png"
+        },
+        "promotions": {
+          "title": "Promociona Tu Trabajo",
+          "description": "Utiliza las herramientas de nuestra plataforma para promocionar tu arte de manera efectiva.",
+          "image": "/assets/promote-work.png"
+        }
+      }
+    },
+    "partners": {
+      "title": "Nuestros Socios",
+      "categories": {
+        "influencers": {
+          "partners": {
+            "1": {
+              "name": "Influencer 1",
+              "description": "Influencer destacado en la comunidad artística.",
+              "image": "/assets/influencer1.jpg"
+            },
+            "2": {
+              "name": "Influencer 2",
+              "description": "Voz líder en discusiones culturales.",
+              "image": "/assets/influencer2.jpg"
+            }
+          }
+        },
+        "flight_agencies": {
+          "partners": {
+            "1": {
+              "name": "FEDEx",
+              "description": "Servicios de entrega confiables en todo el mundo.",
+              "image": "/assets/fedex.jpg"
+            }
+          }
+        },
+        "rtv_stations": {
+          "partners": {
+            "1": {
+              "name": "Estación RTV 1",
+              "description": "Transmitiendo eventos culturales a nivel global.",
+              "image": "/assets/rtv1.jpg"
+            }
+          }
+        },
+        "delivery_services": {
+          "partners": {
+            "1": {
+              "name": "DHL",
+              "description": "Entregas rápidas y seguras a nivel mundial.",
+              "image": "/assets/dhl.jpg"
+            }
+          }
+        },
+        "intellectual_property": {
+          "partners": {
+            "1": {
+              "name": "Abogado de PI",
+              "description": "Experto en derecho de propiedad intelectual.",
+              "image": "/assets/lawyer.jpg"
+            }
+          }
+        },
+        "arts_creators": {
+          "partners": {
+            "1": {
+              "name": "Colectivo de Artistas",
+              "description": "Un grupo de mentes creativas.",
+              "image": "/assets/artist-collective.jpg"
+            }
+          }
+        },
+        "payment_gateways": {
+          "partners": {
+            "1": {
+              "name": "PowerAPi",
+              "description": "Procesamiento de pagos seguro y rápido.",
+              "image": "/assets/powerapi.jpg"
+            }
+          }
+        }
+      }
+    },
+    "galleries": {
+      "title": "Nuestras Galerías",
+      "items": {
+        "0": {
+          "title": "Galería de Arte 1",
+          "image": "/assets/gallery1.jpg",
+          "description": "Una hermosa colección de arte contemporáneo."
+        },
+        "1": {
+          "title": "Galería de Arte 2",
+          "image": "/assets/gallery2.jpg",
+          "description": "Explora formas de arte y artesanía tradicionales."
+        },
+        "2": {
+          "title": "Galería de Arte 3",
+          "image": "/assets/gallery3.jpg",
+          "description": "Una muestra de arte moderno y abstracto."
+        }
+      }
+    },
+    "blogs": {
+      "title": "Últimos Artículos",
+      "details_button": "Detalles",
+      "close_button": "Cerrar",
+      "articles": {
+        "0": {
+          "title": "El Lanzamiento Previo de Artefactos Culturales",
+          "summary": "Descubre la historia detrás del lanzamiento previo de un artefacto cultural único que encarna el espíritu de Camerún.",
+          "content": "El evento de lanzamiento previo de este artefacto cultural destaca la artesanía intrincada y la profunda importancia cultural incrustada en cada pieza. Este artefacto no solo refleja el rico patrimonio de Camerún, sino que también une la brecha entre la tradición y la modernidad.",
+          "image": "/assets/pre-release-artifact.jpg"
+        },
+        "1": {
+          "title": "Explorando la Diversidad Cultural de Camerún",
+          "summary": "Una inmersión profunda en la rica diversidad cultural de Camerún, mostrando las diversas artes y artesanías tradicionales.",
+          "content": "La diversidad cultural de Camerún es un tapiz de tradiciones y costumbres, cada una única para los diferentes grupos étnicos que habitan la región. Este blog explora los coloridos festivales, la música tradicional y la amplia gama de artesanías que hacen de Camerún un vibrante centro cultural.",
+          "image": "/assets/cultural-diversity.jpg"
+        },
+        "2": {
+          "title": "El Impacto del Arte en la Economía de Camerún",
+          "summary": "Cómo el arte y los productos culturales están contribuyendo al crecimiento de la economía de Camerún.",
+          "content": "El arte juega un papel significativo en la economía de Camerún al no solo preservar el patrimonio cultural, sino también al impulsar el turismo y crear oportunidades de empleo. Este blog examina el impacto económico de la industria del arte y su potencial de crecimiento futuro.",
+          "image": "/assets/art-economy-impact.jpg"
+        }
+      }
+    },
+    "who_we_are": {
+      "title": "Quiénes Somos",
+      "tagline": "Hogar de la Creatividad",
+      "description": "Somos Mac (Marketing Arts and Culture), una organización dedicada a impulsar las exportaciones culturales conectando a los artesanos locales con entusiastas de todo el mundo. Como intermediarios, nos aseguramos de que el rico patrimonio cultural de nuestros artesanos llegue a todos los rincones del mundo.",
+      "image_alt": "MAC - Hogar de la Creatividad",
+      "image_url": "/assets/logo-mockup.png"
+    },
+    "subscribe": {
+      "title": "Mantente Conectado",
+      "subtitle": "Suscríbete a nuestro boletín",
+      "placeholder": "Ingresa tu correo electrónico",
+      "button_text": "Suscribirse"
+    },
+    "footer": {
+      "about_us": "Sobre Nosotros",
+      "contact_us": "Contáctanos",
+      "privacy_policy": "Política de Privacidad",
+      "terms_of_service": "Términos de Servicio",
+      "rights_reserved": "© 2024 MAC. Todos los derechos reservados."
+    }
+  }
+  

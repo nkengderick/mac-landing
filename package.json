@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@botpress/webchat": "^2.1.9",
+    "@botpress/webchat-generator": "^0.2.6",
     "@radix-ui/react-dialog": "^1.1.1",
     "@radix-ui/react-dropdown-menu": "^2.1.1",
     "@radix-ui/react-slot": "^1.1.0",
